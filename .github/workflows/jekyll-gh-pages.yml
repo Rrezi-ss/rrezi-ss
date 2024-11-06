@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XYZ Real Estate Marketing - Premier real estate marketing agency based in Kosovo. Helping you buy, sell, and rent properties with ease.">
+    <meta name="author" content="Rrezon Sylaj">
+    <title>XYZ Real Estate Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>XYZ Real Estate Marketing</h1>
+            <p>Leading Real Estate Solutions in Kosovo</p>
+            <p><strong>CEO: Rrezon Sylaj</strong></p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Properties Section -->
+    <section id="properties" class="dark-background">
+        <h2>Available Properties</h2>
+        <p>Explore our curated selection of premium properties in Kosovo. Whether you're looking for your dream home or an investment opportunity, we have the right option for you.</p>
+
+        <div class="property-grid">
+            <!-- Property 1 -->
+            <div class="property-card">
+                <img src="images/property1.jpg" alt="Modern 2-Bedroom Apartment">
+                <h3>Modern 2-Bedroom Apartment</h3>
+                <p><strong>Location:</strong> Downtown Pristina, Kosovo</p>
+                <p><strong>Price:</strong> €350,000</p>
+                <p><strong>Type:</strong> For Sale</p>
+                <p>Spacious 2-bedroom apartment with panoramic views, located in the heart of Pristina. Features modern finishes and easy access to major roads and amenities.</p>
+                <button onclick="showPropertyDetails(1)">View Details</button>
+            </div>
+
+            <!-- Property 2 -->
+            <div class="property-card">
+                <img src="images/property2.jpg" alt="Cozy 3-Bedroom Family Home">
+                <h3>Cozy 3-Bedroom Family Home</h3>
+                <p><strong>Location:</strong> Suburban Pristina, Kosovo</p>
+                <p><strong>Price:</strong> €250,000</p>
+                <p><strong>Type:</strong> For Sale</p>
+                <p>This charming 3-bedroom family home offers peace and quiet with easy access to local schools and parks. The ideal place to raise a family in Kosovo.</p>
+                <button onclick="showPropertyDetails(2)">View Details</button>
+            </div>
+
+            <!-- Property 3 -->
+            <div class="property-card">
+                <img src="images/property3.jpg" alt="Spacious Office Space">
+                <h3>Spacious Office Space</h3>
+                <p><strong>Location:</strong> Business District, Pristina, Kosovo</p>
+                <p><strong>Price:</strong> €500,000</p>
+                <p><strong>Type:</strong> For Sale</p>
+                <p>Modern office space perfect for corporate use, located in the bustling business district of Pristina. Features flexible floor plans and state-of-the-art facilities.</p>
+                <button onclick="showPropertyDetails(3)">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="light-background">
+        <h2>Our Services</h2>
+        <p>At XYZ Real Estate Marketing, we offer a range of services designed to help you navigate the real estate market with confidence. Whether you're a buyer, seller, or investor, we are here to guide you every step of the way.</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Property Sales</h3>
+                <p>We help buyers find their perfect home and sellers market their properties effectively. With years of experience, we are your trusted real estate partner in Kosovo.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Property Rentals</h3>
+                <p>Looking for a rental property? We offer a wide variety of rental options, from residential to commercial spaces, tailored to your needs.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Property Investment</h3>
+                <p>Our expert team provides insights on lucrative property investment opportunities. Let us help you grow your portfolio with prime properties in Kosovo.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Real Estate Marketing</h3>
+                <p>We specialize in crafting comprehensive marketing strategies to sell or rent your property quickly. From staging to advertising, we handle it all.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="dark-background">
+        <h2>About Us</h2>
+        <p>XYZ Real Estate Marketing is a leading real estate agency based in Kosovo, offering full-service real estate solutions for buyers, sellers, and investors. With a strong track record of successful transactions and a deep understanding of the local market, we are committed to helping you make the best real estate decisions.</p>
+        <p>Founded by Rrezon Sylaj, our company leverages years of experience and cutting-edge marketing strategies to ensure the success of every client. Our team is passionate about real estate and works diligently to provide personalized services that meet your unique needs.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to schedule a consultation, please get in touch with us using the contact details below:</p>
+        <ul>
+            <li><strong>Email:</strong> contact@xyzrealestate.com</li>
+            <li><strong>Phone:</strong> +383 44 123 456</li>
+            <li><strong>Office:</strong> 123 Real Estate Blvd, Pristina, Kosovo</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 XYZ Real Estate Marketing. All rights reserved. | Designed by Rrezon Sylaj</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
